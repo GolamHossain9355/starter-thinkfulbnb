@@ -2,6 +2,7 @@
 
 body {
   font-family: "Lato", sans-serif;
+  display: block;
 }
 
 h2 {
@@ -55,24 +56,27 @@ main img {
 
 /* -------  Navigation ------- */
 
+* {
+  box-sizing: border-box;
+}
+
 header {
   background-color: #ff385c;
-  padding: 20px 20px 0 20px;
+  padding: 20px 20px 0 20px; 
   text-align: center;
 }
 
 /* display header nav ul as flex */
 
-header nav ul{
+.nav {
   display: flex;
   justify-content: center;
-  flex-direction: row;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 48px;
   color: #fff;
 }
 
@@ -103,7 +107,7 @@ form label {
 form select,
 form input {
   margin-bottom: 20px;
-  width: 180px;
+  width: 150px;
 }
 
 form button {
@@ -140,13 +144,10 @@ footer p {
 
   /* navigation */
  
-    header {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 0px 10px 15px;
-  }
-  header nav {
-    align-self: center;
+   header{
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-end;
   } 
 
   /* form */ 
