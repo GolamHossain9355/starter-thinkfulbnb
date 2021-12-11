@@ -139,19 +139,19 @@ footer p {
 @media all and (min-width: 480px) {
 
   /* navigation */
-
-  header {
+ 
+    header {
     display: flex;
     justify-content: space-between;
     padding: 0 0px 10px 15px;
   }
   header nav {
     align-self: center;
-  }
+  } 
 
-  /* form */
+  /* form */ 
 
-  form {
+   form {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -172,4 +172,4 @@ footer p {
   .item {
     align-self: center;
   }
-}
+} 
